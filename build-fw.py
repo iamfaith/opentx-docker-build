@@ -157,6 +157,11 @@ elif board_name == "t18":
     cmake_options["PCBREV"] = "T18"
     firmware_options = options_jumper_t18
     maxsize = 2 * 1024 * 1024
+elif board_name == "tlite":
+    cmake_options["PCB"] = "X7"
+    cmake_options["PCBREV"] = "TLITE"
+    firmware_options = options_jumper_t18
+    maxsize = 2 * 1024 * 1024
 else:
     firmware_options = generic_default_options
     print("")
