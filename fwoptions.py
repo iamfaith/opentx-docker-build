@@ -43,6 +43,17 @@ options_sky9x = {
     "flexr9m": ("MODULE_PROTOCOL_FLEX", "YES", None)
 }
 
+options_jumper_tlite = {
+    "noheli": ("HELI", "NO", "YES"),
+    "ppmus": ("PPM_UNIT", "US", "PERCENT_PREC1"),
+    "lua": ("LUA", "YES", "NO_MODEL_SCRIPTS"),
+    "nogvars": ("GVARS", "NO", "YES"),
+    "faimode": ("FAI", "YES", None),
+    "faichoice": ("FAI", "CHOICE", None),
+    "nooverridech": ("OVERRIDE_CHANNEL_FUNCTION", "NO", "YES"),
+    "flexr9m": ("MODULE_PROTOCOL_FLEX", "YES", None),
+}
+
 options_ar9x = {
     "heli": ("HELI", "YES", "NO"),
     "ppmus": ("PPM_UNIT", "US", "PERCENT_PREC1"),

@@ -160,8 +160,8 @@ elif board_name == "t18":
 elif board_name == "tlite":
     extra_options["PCB"] = "X7"
     extra_options["PCBREV"] = "TLITE"
-    firmware_options = options_taranis_xlite
-    maxsize = 2 * 1024 * 1024
+    firmware_options = options_jumper_tlite
+    maxsize = 65536 * 8
 else:
     firmware_options = generic_default_options
     print("")
